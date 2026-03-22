@@ -1,0 +1,166 @@
+morphology:
+  inflection_and_derivation:
+    canonical_choice:
+      inflection_type: suffixing_agglutinative
+      derivation_type:
+        primary: root_compounding
+        secondary: productive_vowel_bearing_derivational_suffixes
+      design_principles:
+        - bare lexical roots should usually end in consonants
+        - inflected and derived forms may end in vowels
+        - morphology must remain harsh, compact, and draconic, but also playable and pronounceable
+        - suffixes are preferred over prefixes
+        - roots remain mostly stable
+        - each inflectional suffix should express one main grammatical function
+        - grammatical stacking should be regular and ordered
+        - stem alternation is disfavored except for limited phonotactic smoothing
+        - the contrast between hard roots and smoother inflected forms is part of the language identity
+        - the system listed here is the complete intended morphological basis for the language
+    nominal_inflection:
+      categories:
+        - number
+        - case
+      grammatical_gender: absent
+      root_shape_principle: citation roots are usually consonant-final
+      number_system:
+        singular:
+          marker: null
+          meaning: unmarked singular / citation form
+        collective_plural:
+          marker: "-a"
+          meaning: collective, mass plural, kind-group
+        individuated_plural:
+          marker: "-i"
+          meaning: discrete counted plural
+      case_system:
+        absolutive:
+          marker: null
+          meaning: basic noun form / citation / unmarked core argument
+        genitive:
+          marker: "-ash"
+          meaning: of
+        locative:
+          marker: "-uq"
+          meaning: in, at
+        allative:
+          marker: "-ar"
+          meaning: to, toward
+        ablative:
+          marker: "-ikh"
+          meaning: from, out of
+        instrumental:
+          marker: "-uz"
+          meaning: with, by means of
+      future_optional_extension:
+        - topic_clitics
+        - focus_clitics
+    verbal_inflection:
+      governing_principle: tense is not primary; aspect and evidentiality are primary
+      categories:
+        - aspect
+        - mood
+        - evidentiality
+      person_inflection: minimal_or_absent
+      template: ROOT-ASPECT-MOOD-EVIDENTIALITY
+      aspect_system:
+        perfective:
+          marker: null
+          meaning: bounded / complete event
+        imperfective:
+          marker: "-a"
+          meaning: ongoing / unfolding event
+        habitual:
+          marker: "-i"
+          meaning: recurrent / customary event
+        prospective:
+          marker: "-u"
+          meaning: impending / not yet completed / on the verge of happening
+      mood_system:
+        indicative:
+          marker: null
+          meaning: default factual statement
+        imperative:
+          marker: "-ak"
+          meaning: command
+        subjunctive:
+          marker: "-as"
+          meaning: desired, uncertain, contingent
+        oath_bound:
+          marker: "-ang"
+          meaning: solemn, ritually committed, decree-bound
+      evidentiality_system:
+        direct_witnessed:
+          marker: "-iq"
+          meaning: directly perceived
+        inferred:
+          marker: "-ish"
+          meaning: deduced or interpreted
+        reported:
+          marker: "-uz"
+          meaning: heard, told, transmitted
+        foreseen:
+          marker: "-uqh"
+          meaning: prophetic certainty / vision-based knowledge
+      negation:
+        type: preverbal_particle
+        marker: "na"
+        principle: negation should remain separate from the suffix chain
+    temporal_strategy:
+      primary_expression: lexical_and_particle_based
+      principle: time is mainly expressed by temporal words and oracle semantics, not by tense-heavy conjugation
+      important_temporal_lexemes:
+        - nok
+        - qhar
+        - qir
+        - gor
+    derivation:
+      primary_strategy:
+        type: root_compounding
+        principle: lexical creation should rely first on transparent root_plus_root compounding
+      secondary_strategy:
+        type: productive_vowel_bearing_suffixation
+        principle: derivational suffixes should be few, productive, semantically stable, and more vowel-bearing than bare roots
+      productive_semantic_suffixes:
+        "-ala":
+          meaning: sacred, divine, ritually sanctioned
+        "-azha":
+          meaning: future-oriented, prophetic
+        "-agha":
+          meaning: past-oriented, ancestral, former
+        "-asho":
+          meaning: warning-bearing, portentous, omen-marked
+        "-aqha":
+          meaning: draconic, dragon-marked, great-scaled
+      productive_category_changing_suffixes:
+        "-ako":
+          function: agent_noun
+          meaning: doer, bearer, office-holder
+        "-aro":
+          function: abstract_noun
+          meaning: state, domain, abstraction
+        "-ali":
+          function: adjectival
+          meaning: quality-bearing, characterized by
+        "-iki":
+          function: diminutive_or_lesser_form
+          meaning: lesser, smaller, brief, minor form
+    phonotactic_smoothing:
+      strategy: minimal_vowel_buffering_or_surface_regularization
+      principle: derived and inflected forms are allowed to become more vowel-bearing in order to remain pronounceable without losing their harsh draconic profile
+    global_character:
+      style:
+        - ancient
+        - ritualized
+        - predatory
+        - compact
+        - pronounceable
+        - semantically_transparent
+      summary:
+        - nouns are centered on number and case
+        - verbs are centered on aspect, mood, and evidentiality
+        - time is expressed mainly by lexical items, particles, and oracle semantics
+        - derivation is dominated by compounding
+        - suffixing morphology is the norm
+        - bare roots are usually consonant-final
+        - inflected and derived forms are more vowel-bearing and may end in vowels
+        - prefixes are rare and non-central

@@ -1,0 +1,92 @@
+syntax:
+  status: final_compact_baseline
+  design_goal: ancient_ritual_poetic_but_playable
+
+  alignment_with_existing_design:
+    phonology_fit: harsh_compact_and_consonant_forward_with_marked_vowel_bearing_inflected_forms
+    morphology_fit: suffixing_agglutinative_with_stable_roots_and_regular_stacking
+    lexicon_fit: oracle_friendly_temporal_and_ritual_register
+
+  notation:
+    word_form_principle: all_morphology_is_written_as_a_single_fused_word
+    hyphenation: forbidden
+    apostrophe: allowed_only_as_a_phonemic_letter_when_part_of_a_lexical_form
+
+  clause_structure:
+    canonical_order: SOV
+    flexibility: case_marking_allows_limited_poetic_reordering
+    preferred_style: compact_deliberate_weighted
+
+  noun_phrase:
+    adjective_position: before_noun
+    genitive_order: possessor_genitive_before_head
+    numeral_position: before_noun
+    demonstratives_future_extension: possible_but_not_yet_defined
+
+  adverbial_structure:
+    default_position: preverbal
+    temporal_adverb_position: clause_initial_or_preverbal
+    emphasis_rule: temporal_elements_are_commonly_fronted_for_oracular_tone
+
+  oblique_phrases:
+    default_position: before_verb
+    marked_position: clause_initial_for_focus_or_ritual_weight
+
+  predication:
+    copula:
+      form: "'ar"
+      usage: optional_in_brief_nominal_clauses
+      preferred_style: omission_is_common_in_proverbs_omens_titles_and_solemn_statements
+
+  polarity:
+    negation:
+      marker: na
+      position: immediately_before_the_verb_or_verb_complex
+      principle: separate_particle_not_part_of_suffix_chain
+
+  interrogation:
+    question_particle:
+      form: sor
+      default_position: clause_final
+      function: marks_question_uncertainty_or_seeking
+    interrogative_style: intonation_may_support_but_particle_is_preferred_in_formal_or_ritual_speech
+
+  coordination:
+    and_particle: war
+    or_particle: nor
+    coordination_scope: word_phrase_or_clause
+
+  subordination:
+    current_strategy: minimal
+    preferred_means: juxtaposition_parallelism_coordination_and_case_marking
+    principle: avoid_heavy_embedded_structures_at_this_stage
+
+  information_structure:
+    focus_fronting: allowed
+    object_fronting: allowed_for_emphasis
+    temporal_fronting: strongly_characteristic
+    genitive_fronting: allowed_in_ritual_or_elevated_style
+    topic_marking: not_yet_grammaticalized
+
+  style_profile:
+    ordinary_register: strict_SOV_with_clear_preverbal_adverbs
+    elevated_register: more_fronting_more_copula_omission_more_parallelism
+    ritual_register: dense_nominal_clauses_temporal_fronting_epithetic_phrasing
+
+  sentence_types:
+    statement:
+      default_shape: subject_object_verb
+    question:
+      default_shape: statement_plus_clause_final_sor
+    command:
+      default_shape: object_optional_then_verb_with_imperative_mood
+    invocation:
+      default_shape: optional_attention_particle_then_fronted_theme_then_predication
+
+  adequacy_checks:
+    easy_to_use_at_table: true
+    supports_short_poetic_texts: true
+    supports_oracle_speech: true
+    preserves_ancient_draconic_feel: true
+    avoids_excessive_complexity: true
+    consistent_with_no_hyphen_rule: true

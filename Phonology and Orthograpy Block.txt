@@ -1,0 +1,119 @@
+phonology_and_orthography:
+  design_goals:
+    - threatening
+    - bestial
+    - ancient
+    - confident
+    - dragon-natural
+    - low_labial_activity
+    - guttural
+    - hissing
+    - abrupt_codas
+
+  phonology:
+    inventory_is_exhaustive: true
+    principles:
+      - rear_articulation_dominance
+      - fricative_pressure
+      - hard_word_closure
+
+    consonants_ipa:
+      stops:
+        - /k/
+        - /g/
+        - /q/
+        - /ʔ/
+      fricatives:
+        - /x/
+        - /ɣ/
+        - /χ/
+        - /h/
+        - /s/
+        - /ʃ/
+        - /z/
+      affricates:
+        - /t͡ʃ/
+      nasals:
+        - /n/
+        - /ŋ/
+      liquids_and_glides:
+        - /r/
+        - /ɫ/
+        - /j/
+        - /w/
+
+    vowels_ipa:
+      - /a/
+      - /i/
+      - /u/
+      - /o/
+
+  orthography:
+    type: latin_usable_table_orthography
+    mappings:
+      k: /k/
+      g: /g/
+      q: /q/
+      "'": /ʔ/
+      kh: /x/
+      gh: /ɣ/
+      qh: /χ/
+      h: /h/
+      s: /s/
+      sh: /ʃ/
+      z: /z/
+      ch: /t͡ʃ/
+      n: /n/
+      ng: /ŋ/
+      r: /r/
+      l: /ɫ/
+      y: /j/
+      w: /w/
+      a: /a/
+      i: /i/
+      u: /u/
+      o: /o/
+
+  phonotactic_direction:
+    preferred_syllable_shapes:
+      - CVK
+      - CCVK
+      - CVCC
+      - CCVCC
+    preferred_finals:
+      - k
+      - q
+      - kh
+      - qh
+      - sh
+      - s
+      - ng
+      - r
+      - "'"
+    final_vowels: rare_and_marked
+
+  official_alphabet:
+    vowels:
+      - a
+      - i
+      - u
+      - o
+    consonants:
+      - k
+      - g
+      - q
+      - "'"
+      - h
+      - kh
+      - gh
+      - qh
+      - s
+      - sh
+      - z
+      - ch
+      - n
+      - ng
+      - r
+      - l
+      - y
+      - w

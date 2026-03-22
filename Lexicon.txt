@@ -1,0 +1,194 @@
+lexicon_version: 0.3
+status: compliant_sketch
+notes[5]: "No grammar yet","Forms constrained by approved phonology","Only approved alphabet used","Final vowels minimized but not absolutely banned","Glosses are semantic approximations"
+
+nouns[54]{form,gloss,domain}:
+  qor,time,temporal
+  qorsh,era,temporal
+  zhaq,future,temporal
+  ghar,past,temporal
+  'ik,moment,temporal
+  qhang,omen,oracle
+  ghosh,vision,oracle
+  qhar,prophecy,oracle
+  sakh,memory,mind
+  sakhr,remembrance,mind
+  ngor,dream,mind
+  khaz,fate,oracle
+  qhazh,destiny,oracle
+  shorq,warning,oracle
+  grish,doubt,mind
+  qar,person,social
+  nar,warrior,social
+  qharok,oracle,social
+  zhur,mage,social
+  khashr,lord,social
+  qal,priest_ritual_keeper,social
+  sang,hunter,social
+  ghor,enemy,social
+  wesh,ally,social
+  yar,stranger,social
+  qarsh,path,world
+  ghorq,cave,world
+  khur,mountain,world
+  zong,sky,world
+  nash,night,world
+  sor,sun,world
+  qol,moon,world
+  ghashk,shadow,world
+  worq,fire,world
+  sukh,ash,world
+  yong,wind,world
+  gorq,stone,world
+  nor,river,world
+  zhal,blood,body
+  qesh,bone,body
+  ghok,skull,body
+  qarok,gate,place
+  shor,door,place
+  khang,hall,place
+  qirsh,ruin,place
+  wagh,treasure,object
+  zorq,gold,object
+  qosh,secret,concept
+  karsh,blade,gear
+  ghaq,spear,gear
+  wark,shield,gear
+  khorq,armor,gear
+  shaq,bow,gear
+  ngaq,arrow,gear
+
+adjectives[20]{form,gloss,domain}:
+  qhal,divine,divine
+  qhazrakh,draconic_mighty,dragon
+  nokgrish,now-confused,oracle
+  ghashk,shadowed,world
+  sukh,ashy,world
+  worq,fiery,world
+  zhalworq,bloodfiery,divine
+  weshqhal,blessed,divine
+  qoshqal,mystic_hidden,divine
+  qhazrong,elder_great,dragon
+  ghorqhazr,dragon-hostile,dragon
+  worqal,sacred_fiery,divine
+  nashkhashr,nocturnal_lordly,divine
+  sorkhashr,solar_lordly,divine
+  qhangal,god-sent_ominous,divine
+  qhazryar,dragon-wise,dragon
+  yarqal,sacred_knowing,divine
+  qharqal,divinely_prophetic,divine
+  ngorqal,divinely_oneiric,divine
+  qhazhshor,fate-warning,oracle
+
+verbs[29]{form,gloss,domain}:
+  yarq,to_know,mind
+  nakh,to_remember,mind
+  ghurq,to_forget,mind
+  shiq,to_see,perception
+  qhosh,to_foresee,oracle
+  wazr,to_await,temporal
+  zhor,to_return,motion
+  karq,to_fight,combat
+  zhak,to_strike,combat
+  qhur,to_kill,combat
+  wor,to_guard,action
+  sharq,to_speak,speech
+  hissh,to_whisper,speech
+  qar,to_command,speech
+  ghal,to_bind,action
+  sorq,to_seek,action
+  khor,to_go,motion
+  zhurq,to_come,motion
+  qish,to_watch,perception
+  ghash,to_hide,action
+  raqh,to_break,action
+  wakh,to_endure,action
+  yor,to_swear,ritual
+  qhangshiq,to_read_omens,oracle
+  qharqish,to_perceive_then_state,oracle
+  nakhzhaq,to_remember_future,oracle
+  yarqor,to_know_time,oracle
+  sakhghar,to_recall_past,oracle
+  sakhzhaq,to_recall_future,oracle
+
+adverbs[6]{form,gloss,domain}:
+  nok,now,temporal
+  qhar,then,temporal
+  qir,before,temporal
+  gor,after,temporal
+  zhor,again,temporal
+  'ik,instantly,temporal
+
+pronouns[2]{form,gloss,domain}:
+  shar,you,grammar
+  qar,I,grammar
+
+copulas_and_particles[5]{form,gloss,domain}:
+  'ar,to_be,grammar
+  sor,question_uncertainty,grammar
+  war,and,grammar
+  nor,or,grammar
+  har,attention_call,discourse
+
+dragon_terms[15]{form,gloss,domain}:
+  qhazr,dragon,dragon
+  qhazrik,wyrmling,dragon
+  qhazrong,great_dragon,dragon
+  qhor,claw,dragon
+  zhash,fang,dragon
+  ghursh,scale,dragon
+  yong,wing,dragon
+  ngorq,tail,dragon
+  qhur,breath,dragon
+  qhurworq,fire-breath,dragon
+  qhursukh,ash-breath,dragon
+  gharz,hoard,dragon
+  khashr,dragon-lord,dragon
+  shorqhazr,dragon_omen,dragon
+  zharqhazr,dragon_speech,dragon
+
+divine_terms[12]{form,gloss,domain}:
+  qalor,god,divine
+  qalorng,gods,divine
+  qhangal,divine_omen,divine
+  qharqal,divine_prophecy,divine
+  ngorqal,divine_dream,divine
+  yarqal,sacred_knowledge,divine
+  worqal,sacred_fire,divine
+  ghalqal,sacred_oath,divine
+  qarqal,divine_decree,divine
+  sakhqal,sacred_memory,divine
+  qirqal,sacred_gate,divine
+  khangqal,shrine,divine
+
+apsu_titles[6]{form,gloss,domain}:
+  Sorkhashr,Sun-Lord,apsu
+  Worqhal,Holy-Flame,apsu
+  Yarqhazr,First-Dragon-Knowledge,apsu
+  Weshqhal,Blessed-Ally,apsu
+  Qalorsor,Solar-God,apsu
+  Qhazrongwesh,Great-Ally-Dragon,apsu
+
+dahak_titles[6]{form,gloss,domain}:
+  Nashkhashr,Night-Lord,dahak
+  Sukhal,Ash-Divine,dahak
+  Qhurworqkhashr,Lord-of-Burning-Breath,dahak
+  Ghorqhazr,Enemy-Dragon,dahak
+  Qalorsukh,God-of-Ash,dahak
+  Zhalworq,Bloodfire,dahak
+
+oracle_compounds[8]{form,gloss,domain}:
+  ghoshqhar,prophetic_vision,oracle
+  nakhzhaq,future-memory,oracle
+  nokgrish,present-confusion,oracle
+  yarqor,time-knowledge,oracle
+  sakhghar,memory_of_past,oracle
+  sakhzhaq,memory_of_future,oracle
+  qhazhshor,warning_of_destiny,oracle
+  grishnokqhar,confusion_between_now_and_then,oracle
+
+phrase_kernels[4]{id,forms,gloss}:
+  remember_future,"nakh,zhaq","remember the future"
+  are_you_now_or_then,"shar,'ar,nok,nor,shar,'ar,qhar","are you now or are you then"
+  gods_show_ash_and_gold,"qalorng,shiq,sukh,war,zorq","the gods show ash and gold"
+  dragon_remembers,"qhazr,nakh","the dragon remembers"
