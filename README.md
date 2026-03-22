@@ -219,6 +219,12 @@ These files define the current baseline and should be treated as the authoritati
 
 ---
 
+## Design and Implementation
+
+This conlang was designed by me (Kos Kallah) by guiding GPT 5.4 through a subset of the process outlined by Mark Rosenfelder in his book [The Language Construction Kit](https://www.amazon.com/Language-Construction-Kit-Mark-Rosenfelder-ebook/dp/B005RX79Z4?ref_=ast_author_mpb)
+
+---
+
 ## License
 
 Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
